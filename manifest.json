@@ -3,8 +3,8 @@
   "short_name": "Best Lirik", 
   "start_url": "https://best-lirik-lagu.blogspot.com/", 
   "display": "standalone", 
-  "background_color": "#fff", 
-  "theme_color": "#3272c3", 
+  "background_color": "rgb(255,255,255)", 
+  "theme_color": "rgb(51,103,214)", 
   "description": "Kumpulan Lirik Lagu Terbaik Terbaru dan Populer lengkap, Cari lirik lagu Indonesia, barat, dangdut, pop dan info musik", 
   "icons": [{
     "src": "https://1.bp.blogspot.com/-OSCnWvOMYkc/Xl_2Bo0DMFI/AAAAAAAAAHw/Bl1U14busTsKOQc7JZFII5r78tC1pxRDACLcBGAsYHQ/s48/android-icon-192x192.png",
