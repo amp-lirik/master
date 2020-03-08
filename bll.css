@@ -26,7 +26,15 @@ header{;background:#24292e;width:100%;margin:0;overflow:hidden;height:48px}.row-
 
 .sidebar .widget-content::after,.sidebar .widget-content::before{content:"";display:table;table-layout:fixed;clear:both}
 
-.widget ul{line-height:1.4em}.PopularPosts .widget-content ul,.PopularPosts .widget-content ul li{margin:0 ;padding:0;list-style:none;border:none;outline:none}.PopularPosts .widget-content ul{margin:0;list-style:none;counter-reset:num}.PopularPosts .widget-content ul li{margin:0 0 15px;counter-increment:num;position:relative}.PopularPosts ul li:last-child{margin-bottom:0px}.PopularPosts ul li .item-content::after{background:#efefef}.PopularPosts .item-title{line-height:1.6;margin-right:8px;min-height:40px;font-weight:bold}.PopularPosts .item-snippet{line-height:1.6em;font-size:14px;margin-top:8px;opacity:0.925}.PopularPosts ul li &gt; a{font-weight:bold}footer{position:relative;padding:20px 5px;overflow:hidden;font-size:14px;color:rgb(28,28,28);text-align:center;border-top:solid 1px #e0e0e0}footer a{color: rgb(28,28,28)}footer a:hover{color: rgb(85,85,85)}.credit{position:relative;max-width:1000px;margin:0 auto;padding:0 30px}a.t_l{background: rgba(0,0,0,0.4);position:absolute;overflow:hidden;bottom:12px;right:15px;text-align:center;border-radius:50%;width:30px;height:30px;padding:0;z-index:3;border:1px solid rgb(255,255,255);opacity:.5}
+.widget ul{line-height:1.4em}.PopularPosts .widget-content ul,.PopularPosts .widget-content ul li{margin:0 ;padding:0;list-style:none;border:none;outline:none}
+
+.PopularPosts .widget-content ul{margin:0;list-style:none;counter-reset:num}
+.PopularPosts .widget-content ul li{margin:0 0 15px;counter-increment:num;position:relative}
+.PopularPosts ul li:last-child{margin-bottom:0px}
+.PopularPosts ul li .item-content::after{background:#efefef}
+.PopularPosts ul li > a{font-weight:bold}
+
+footer{position:relative;padding:20px 5px;overflow:hidden;font-size:14px;color:rgb(28,28,28);text-align:center;border-top:solid 1px #e0e0e0}footer a{color: rgb(28,28,28)}footer a:hover{color: rgb(85,85,85)}.credit{position:relative;max-width:1000px;margin:0 auto;padding:0 30px}a.t_l{background: rgba(0,0,0,0.4);position:absolute;overflow:hidden;bottom:12px;right:15px;text-align:center;border-radius:50%;width:30px;height:30px;padding:0;z-index:3;border:1px solid rgb(255,255,255);opacity:.5}
 
 a.t_l:before,a.t_l:after{position:absolute;content:'';border:8px solid transparent;border-bottom:8px solid rgb(187,187,187);left:7px;top:4px}a.t_l:after{top:0;border-bottom-color:rgb(255,255,255)}
 a.t_l:hover{opacity:1}
