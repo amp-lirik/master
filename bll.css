@@ -31,6 +31,7 @@ header{;background:#24292e;width:100%;margin:0;overflow:hidden;height:48px}.row-
 .PopularPosts .widget-content ul{margin:0;list-style:none;counter-reset:num}
 .PopularPosts .widget-content ul li{margin:0 0 15px;counter-increment:num;position:relative}
 .PopularPosts ul li:last-child{margin-bottom:0px}
+.PopularPosts .item-title{font-weight:bold;margin-bottom:15px}
 .PopularPosts ul li .item-content::after{background:#efefef}
 .PopularPosts ul li > a{font-weight:bold}
 
