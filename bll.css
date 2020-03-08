@@ -32,8 +32,9 @@ footer{position:relative;padding:20px 5px;overflow:hidden;font-size:14px;color:r
 a.t_l:before,a.t_l:after{position:absolute;content:'';border:8px solid transparent;border-bottom:8px solid rgb(187,187,187);left:7px;top:4px}a.t_l:after{top:0;border-bottom-color:rgb(255,255,255)}
 a.t_l:hover{opacity:1}
 #search-container{position:-webkit-sticky;position:sticky;top:0}
-
 @media only screen and (max-width:800px){main{padding:20px}.row-wrapper,nav{padding:0 20px}}@media only screen and (max-width:768px){#post-wrapper,aside{float:none;width:100%;max-width:100%}.post-container{padding: 0 0 20px 0}}@media only screen and (max-width:640px){main{padding:15px}#post-wrapper,aside{float:none;width:100%;max-width:100%}}@media only screen and (max-width:480px){h1{font-size:170%}h2{font-size:150%}h3{font-size:130%}h4{font-size:120%}h5{font-size:110%}h6{font-size:100%}h2.post-title{font-size:18px}h1.post-title{font-size:24px}.section:last-child .widget:last-child, .sidebar .widget,.above-post-widget .widget,#blog-pager{margin:0 0 20px}}@media (max-width:700px) {.post-body pre .google-auto-placed, .post-body table .google-auto-placed, .post-body blockquote .google-auto-placed, header .google-auto-placed{display:none}}
-
-
 @media only screen and (min-width:769px){#post-wrapper,aside{position:-webkit-sticky;position:sticky;top:70px}}
+
+<b:if cond='data:view.isHomepage'>
+.PopularPosts ul li .item-thumbnail-only::before,.PopularPosts ul li .item-content::before,.PopularPosts ul li > a::before{content: counter(num);font-size:30px;font-weight:bold;font-style:italic;display:block;position:absolute;top:0;left:0;bottom:0;text-align:center;color:#24292e}.PopularPosts ul li:nth-child(10) .item-thumbnail-only::before,.PopularPosts ul li:nth-child(10) .item-content::before,.PopularPosts ul li:nth-child(10) > a::before{left:-10px}.PopularPosts ul li .item-thumbnail-only::after,.PopularPosts ul li .item-content::after,.PopularPosts ul li > a::after{content: "";display:block;position:absolute;top:32px;left:9px;bottom:0;width:2px}.PopularPosts .item-title,.PopularPosts .item-thumbnail,.PopularPosts .item-snippet{margin-left:28px}.PopularPosts ul li > a{display:block;padding-left:28px;min-height:45px}
+</b:if>
