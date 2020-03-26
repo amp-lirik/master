@@ -1,1 +1,23 @@
-.post-content{line-height:1.5em}.post-content:before{float:right;content:&#39;by: www.loroktm.com&#39;;width:120px;height:12px;margin:0 0 15px 15px;background-image:url(&quot;data:image/svg+xml;charset=utf8,%3csvg viewBox=&#39;0 0 20 20&#39; width=&#39;24&#39; height=&#39;24&#39; xmlns=&#39;http://www.w3.org/2000/svg&#39; xmlns:xlink=&#39;http://www.w3.org/1999/xlink&#39;%3e%3cg%3e%3cpath style=&#39;fill:black&#39; d=&#39;M16.899,3.05c-0.085-0.068-0.192-0.095-0.299-0.074L7.947,4.779c-0.17,0.034-0.291,0.182-0.291,0.353v7.364c-0.494-0.536-1.199-0.873-1.983-0.873c-1.491,0-2.704,1.213-2.704,2.704s1.213,2.704,2.704,2.704c1.491,0,2.705-1.213,2.705-2.704V7.952l7.933-1.659v4.399c-0.494-0.535-1.199-0.873-1.983-0.873c-1.491,0-2.704,1.213-2.704,2.704c0,1.492,1.213,2.705,2.704,2.705c1.49,0,2.704-1.213,2.704-2.705V3.33C17.031,3.221,16.982,3.119,16.899,3.05 M5.673,16.311c-1.094,0-1.983-0.889-1.983-1.983s0.889-1.983,1.983-1.983c1.095,0,1.983,0.889,1.983,1.983S6.768,16.311,5.673,16.311 M14.327,14.508c-1.095,0-1.983-0.889-1.983-1.984c0-1.094,0.889-1.982,1.983-1.982c1.094,0,1.983,0.889,1.983,1.982C16.311,13.619,15.421,14.508,14.327,14.508 M16.311,5.558L8.377,7.217V5.428l7.933-1.659V5.558z&#39;%3e%3c/path%3e%3c/g%3e%3c/svg%3e&quot;);background-repeat:no-repeat;background-size:112px;background-position:top;border:3px double rgba(0,0,0,.6);border-radius:2px;box-shadow:0 0 10px rgba(0,0,0,.6) inset;padding:100px 5px 12px 5px;font-size:12px;line-height:12px;text-align:center;color:rgb(0,0,0)}.PopularPosts ul li .item-thumbnail-only::before,.PopularPosts ul li .item-content::before,.PopularPosts ul li > a::before{content: counter(num);font-size:30px;font-weight:bold;font-style:italic;display:block;position:absolute;top:0;left:0;bottom:0;text-align:center;color:#24292e}.PopularPosts ul li:nth-child(10) .item-thumbnail-only::before,.PopularPosts ul li:nth-child(10) .item-content::before,.PopularPosts ul li:nth-child(10) > a::before{left:-10px}.PopularPosts ul li .item-thumbnail-only::after,.PopularPosts ul li .item-content::after,.PopularPosts ul li > a::after{content: "";display:block;position:absolute;top:32px;left:9px;bottom:0;width:2px}.PopularPosts .item-title,.PopularPosts .item-thumbnail,.PopularPosts .item-snippet{margin-left:28px}.PopularPosts ul li > a{display:block;padding-left:28px;min-height:45px}
+.post-content{line-height:1.5em}
+
+.post-content:before {
+    float: right;
+    content: 'by: www.loroktm.com';
+    width: 120px;
+    height: 12px;
+    margin: 0 0 15px 15px;
+    background-image: url(data:image/svg+xml;charset=utf8,%3csvg viewBox='0 0 20 20' width='24' heigh….558L8.377,7.217V5.428l7.933-1.659V5.558z'%3e%3c/path%3e%3c/g%3e%3c/svg%3e);
+    background-repeat: no-repeat;
+    background-size: 112px;
+    background-position: top;
+    border: 3px double rgba(0,0,0,.6);
+    border-radius: 2px;
+    box-shadow: 0 0 10px rgba(0,0,0,.6) inset;
+    padding: 100px 5px 12px 5px;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    color: rgb(0,0,0);
+}
+
+.PopularPosts ul li .item-thumbnail-only::before,.PopularPosts ul li .item-content::before,.PopularPosts ul li > a::before{content: counter(num);font-size:30px;font-weight:bold;font-style:italic;display:block;position:absolute;top:0;left:0;bottom:0;text-align:center;color:#24292e}.PopularPosts ul li:nth-child(10) .item-thumbnail-only::before,.PopularPosts ul li:nth-child(10) .item-content::before,.PopularPosts ul li:nth-child(10) > a::before{left:-10px}.PopularPosts ul li .item-thumbnail-only::after,.PopularPosts ul li .item-content::after,.PopularPosts ul li > a::after{content: "";display:block;position:absolute;top:32px;left:9px;bottom:0;width:2px}.PopularPosts .item-title,.PopularPosts .item-thumbnail,.PopularPosts .item-snippet{margin-left:28px}.PopularPosts ul li > a{display:block;padding-left:28px;min-height:45px}
